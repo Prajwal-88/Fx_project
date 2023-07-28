@@ -1,0 +1,53 @@
+.root{
+    -fx-background-color: linear-gradient(to top left, #af2222, #11172a);
+}
+
+.label{
+    -fx-font-family: 'Lucida Console','Lucida Unicode', sans-serif;
+    -fx-text-fill: aliceblue;
+}
+
+#comLabel{
+    -fx-text-fill: aliceblue;
+}
+
+.menu-bar{
+    -fx-background-color: #494a4b;
+}
+
+#welcomeLabel{
+    -fx-font-family: 'Trebuchet',sans-serif;
+    -fx-text-fill: aliceblue;
+    /* -fx-font-style: italic; */
+    -fx-font-weight: 900;
+}
+
+#proceedBtn, #submitBtn{
+    -fx-background-color: linear-gradient(to top left, #4f60b6, #c35454);
+    -fx-font-size: 13;
+    -fx-text-fill: #fff;
+    -fx-font-weight: 700;
+}
+
+#proceedBtn:hover, #submitBtn:hover{
+    -fx-scale-y: 120%;
+    -fx-scale-x: 120%;
+}
+
+#proceedBtn:active, #submitBtn:active{
+    -fx-scale-y: 90%;
+    -fx-scale-x: 90%;
+    -fx-font-size: 9;
+}
+
+.radio-button{
+    -fx-text-fill: aliceblue;
+}
+
+#colorPicker{
+    -fx-text-fill: #000;
+}
+
+.date-picker{
+    -fx-text-fill: #000;
+}
